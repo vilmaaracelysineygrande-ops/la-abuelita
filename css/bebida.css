@@ -1,0 +1,66 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.contenedor-bebida {
+    width: 90%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+    padding: 15px;
+    
+}
+
+.bebida1{
+   width: 100%;
+    height: 100%;
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 380px;
+
+}
+
+.titulo{
+    text-align: center;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1,5rem;
+}
+
+.parrafo{
+   text-align: justify;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 13px;
+}
+
+.imagen-bebida img{
+   width: 100%;
+    max-width: 150px;
+    border-radius: 10px;
+}
+
+.imagen-bebida1 img{
+   width: 100%;
+    max-width: 120px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+@media(min-width:768px){
+    .contenedor-bebida{
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(min-width:1440px){
+    .contenedor-bebida{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
