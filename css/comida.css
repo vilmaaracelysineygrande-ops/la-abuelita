@@ -1,0 +1,76 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contenedor .contenedor-targetas{
+    width: 225px;
+    height: 425px;
+    background-color: rgba(248, 249, 251, 0.911);
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.contenedor .contenedor-targetas img{
+    width: 100%;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.contenedor .contenedor-targetas h2{
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.contenedor .contenedor-targetas p{
+    color: black;
+    font-size: 10px;
+    text-align: center;
+}
+/* para tablet */
+@media(min-width:678px){
+    .contenedor{
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+
+    }
+}
+/* para compus */
+@media(min-width:992px){
+    .contenedor{
+        display:grid;
+        grid-template-columns: repeat(4, 1fr);
+        align-items: center;
+    }
+}
+
+
+.contenedor .contenedor-targetas h5{
+    color: black;
+    font-size: 10px;
+    text-align: left;
+    background-color: rgb(84, 249, 202);
+    border-radius: 10px;
+    width: 90px;
+    height: 20px;
+    margin: 10px;
+}
+
+.comida{
+    color: black;
+    text-align: center;
+    font-size: 10px;
+}
+
+.titulo{
+    color: black;
+    text-align: center;
+    font-size: 50px;
+}
