@@ -36,7 +36,10 @@
         </div>
         
     </header>
-    <!-- fin del header -->
+    <!-- fin del header --> 
+
+
+
      <!-- inicio de navegacion -->
           <nav class="navbar">
     <ul>
@@ -51,43 +54,54 @@
 
             <!-- aqui empieza el contacto --> 
 
-             <div class="contenedor-login">
-    <div class="login">
-<form action="#">
-    <h1>login</h1>
-    <div class="contenedor-campos">
-        <div class="campos1">
-         <input type="text" placeholder="ingrese el nombre de su tarjeta" required>
-        </div>
-        <div class="campos2">
-            <input type="email" placeholder="ingrese su tarjeta" required>
-        </div>
-        <div class="campos3">
-            <input type="pasword" placeholder="password" required>
-            
-        </div>
-    </div> 
 
-    <a href="#"><span>olvido su contraseña</span></a>
-    <br>
-    <div class="boton">
-    <a href="#">
+<header class="header">
+    <h2 class="titulo">igresa tus datos para un mejor servicio</h2>
+</header>
 
-        <button>aceptar</button>
-    </a> 
-    <div> 
-        <br> 
-        <br>
-<!-- enlace para  volver(ojala existiera en la vida real para volver con mi ex (；′⌒`) -->
-     <a href="index.html" class="back"> <span>volver</span></a>
-    </div>
+<main class="contenedor-contacto">
 
+    <section class="ingresa">
 
+        <h2 class="titulo-ingresa">Ingrese aquí</h2>
 
+        <form class="formulario">
 
-</form>
- </div> 
-</div>
+            <input
+                type="text"
+                placeholder="Nombre de la tarjeta"
+                required
+            >
+
+            <input
+                type="text"
+                placeholder="Datos de la tarjeta"
+                required
+            >
+
+            <input
+                type="password"
+                placeholder="Contraseña"
+                required
+            >
+
+            <a href="#" class="olvido">
+                ¿Olvidó su contraseña?
+            </a>
+
+            <button type="submit" class="btn">
+                Aceptar
+            </button>
+
+            <a href="index.html" class="back">
+                Volver
+            </a>
+
+        </form>
+
+    </section>
+
+</main>
 
 
 
